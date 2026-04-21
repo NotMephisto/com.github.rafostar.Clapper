@@ -29,9 +29,9 @@ index eaae3cf856..520de88003 100644
  
  #include "gstssaparse.h"
 @@ -149,8 +153,9 @@ gst_sub_parse_class_init (GstSubParseClass * klass)
-            "Encoding to assume if input subtitles are not in UTF-8 or any other "
-            "Unicode encoding. If not set, the GST_SUBTITLE_ENCODING environment "
-            "variable will be checked for an encoding to use. If that is not set "
+           "Encoding to assume if input subtitles are not in UTF-8 or any other "
+           "Unicode encoding. If not set, the GST_SUBTITLE_ENCODING environment "
+           "variable will be checked for an encoding to use. If that is not set "
 -          "either, ISO-8859-15 will be assumed.", DEFAULT_ENCODING,
 -          G_PARAM_READWRITE | G_PARAM_STATIC_STRINGS));
 +          "either, then if plugin was build with uchardet support it will be "
