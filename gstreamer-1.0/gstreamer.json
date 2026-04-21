@@ -77,6 +77,10 @@
         },
         {
             "type": "patch",
+            "path": "gst-plugins-base-autodetect-subtitle-text-encoding.patch"
+        },
+        {
+            "type": "patch",
             "path": "gst-plugins-good-matroska-fix-attachments-detection.patch"
         },
         {
