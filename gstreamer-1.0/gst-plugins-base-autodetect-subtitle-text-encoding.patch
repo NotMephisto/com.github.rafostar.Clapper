@@ -1,7 +1,7 @@
 From 7b96f573063eb156a5baec747776c39c391273f3 Mon Sep 17 00:00:00 2001
 From: =?UTF-8?q?Rafa=C5=82=20Dzi=C4=99giel?= <rafostar.github@gmail.com>
 Date: Mon, 28 Jun 2021 18:21:09 +0200
-Subject: [PATCH] subparse: Autodetect subtitle text encoding (Adapted for 1.26.9)
+Subject: [PATCH] subparse: Autodetect subtitle text encoding
 
 Use "uchardet" to guess the subtitle text encoding if it is not in UTF-8
 or manually specified instead of blindly guessing its "ISO-8859-15".
