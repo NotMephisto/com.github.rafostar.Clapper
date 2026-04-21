@@ -8,10 +8,10 @@ or manually specified instead of blindly guessing its "ISO-8859-15".
 The "uchardet" dependency is optional and when is not available at
 compile time, then old behaviour will be used.
 ---
- subprojects/gst-plugins-base/gst/subparse/gstsubparse.c | 60 +++++++++++++++++--
- subprojects/gst-plugins-base/gst/subparse/meson.build   | 12 +++++++++-
- subprojects/gst-plugins-base/meson_options.txt          |  3 ++
- 3 files changed, 71 insertions(+), 4 deletions(-)
+ .../gst/subparse/gstsubparse.c                | 60 +++++++++++++++++--
+ .../gst-plugins-base/gst/subparse/meson.build | 12 +++-
+ .../gst-plugins-base/meson_options.txt        |  3 +
+ 3 files changed, 67 insertions(+), 8 deletions(-)
 
 diff --git a/subprojects/gst-plugins-base/gst/subparse/gstsubparse.c b/subprojects/gst-plugins-base/gst/subparse/gstsubparse.c
 index eaae3cf856..520de88003 100644
